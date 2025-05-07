@@ -5,7 +5,7 @@ I'm a passionate **Power BI Developer** and **Data Analyst** who loves transform
 
 - 💼 Associate Consultant @ Capgemini (Data & Insights)-
 - 📊 Building real-time dashboards in **Power BI**
-- - 🔍 Skilled in **DAX**, **SQL**, **Excel**, and **Jaspersoft**
+- 🔍 Skilled in **DAX**, **SQL**, **Excel**, and **Jaspersoft**
 - ✅ **PL-300 Certified**, prepping for **PL-600**
 - ✈️ Travel content creator & storytelling enthusiast
 - ⚙️ Automating reports & exploring **Looker**, **Tableau**, **Qlik**
