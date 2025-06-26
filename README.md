@@ -6,7 +6,8 @@ I'm a passionate **Power BI Developer** and **Data Analyst** who loves transform
 - 💼 Associate Consultant @ Capgemini (Data & Insights)  
 - 📊 Building real-time dashboards in **Power BI**  
 - 🔍 Skilled in **DAX**, **SQL**, **Excel**, and **Jaspersoft**  
-- ✅ **PL-300 Certified**, prepping for **DP-600 (Fabric Analytics Engineer)**  
+- ☁️ Working hands-on with **Microsoft Fabric** and **Snowflake** for modern data architecture  
+- ✅ **PL-300** & **DP-600 Certified (Fabric Analytics Engineer)**  
 - ✈️ Travel content creator & storytelling enthusiast  
 - ⚙️ Automating reports & exploring **Looker**, **Tableau**, **Qlik**
 
@@ -17,17 +18,18 @@ I'm a passionate **Power BI Developer** and **Data Analyst** who loves transform
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)  
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)  
 ![Jaspersoft](https://img.shields.io/badge/Jaspersoft-Tool-orange?style=for-the-badge)  
+![Microsoft Fabric](https://img.shields.io/badge/Fabric-602BFF?style=for-the-badge&logo=microsoft&logoColor=white)  
+![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge&logo=snowflake&logoColor=white)  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
 
 ---
 
 ## 📈 GitHub Stats  
-![Trakshay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=trakshay-tech&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=trakshay-tech&layout=compact&theme=radical)  
+![Trakshay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AnalystTrakshay&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnalystTrakshay&layout=compact&theme=radical)  
 
 ---
 
 ## 🔗 Connect With Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/trakshay-balagotra-ab9431187/)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=github&logoColor=white)](https://trakshay-tech.github.io/trakshay.github.io/)
+[!]()
