@@ -207,9 +207,10 @@ h2 {
 <a href="#certifications">Certifications</a>
 <a href="#education">Education</a>
 <a href="#awards">Awards</a>
-<a href="#initiatives">Initiatives</a>
+<a href="#initiatives">Initiatives</a><a href="#resume">Resume</a>
   <a href="#powerbi">Power BI Designs</a> <!-- New Link -->
 <a href="#certificationss">Certificates Links</a>
+
 </nav>
 
 <header>
@@ -373,14 +374,25 @@ API  Sources to gather data, apply ETL and design Operational dashboards, Handli
 </section>
 
 
-
-
-<!-- Print Button -->
+<!-- Print and Download Buttons -->
+<section id="resume">
 <div class="print-container" style="text-align: center; margin-top: 20px;">
-<button class="print-btn" onclick="window.print()" style="background-color: #0ea5e9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-🖨️ Print Resume
-</button>
+  <!-- Print Button -->
+  <button class="print-btn" onclick="window.print()" style="background-color: #0ea5e9; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">
+    🖨️ Print Resume
+  </button>
+
+  <!-- Download Resume Button -->
+  <a href="https://github.com/AnalystTrakshay/AnalystTrakshay/raw/main/Trakshay%20Balagotra%20-%20Analytics%20Developer.docx.docx" 
+     download 
+     target="_blank" 
+     style="background-color: #10b981; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    ⬇️ Download Word Resume
+  </a>
 </div>
+</section>
+
+
 <section id="powerbi">
   <h2>Power BI Report Project 1</h2>
   <div class="card">
@@ -411,18 +423,19 @@ API  Sources to gather data, apply ETL and design Operational dashboards, Handli
     <!-- Certificate 1 - PL-300 -->
     <div class="cert-card" style="max-width: 350px; border: 1px solid #ccc; border-radius: 15px; padding: 1rem; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
       
-      <h3 style="margin: 0.5rem 0;">PL-300: Power BI Data Analyst</h3>
-      <p><strong>Validity:</strong> March 2024 - March 2025</p>
+      <h3 style="margin: 0.5rem 0;">Microsoft Certified: Power BI Data Analyst Associate</h3>
+     <p><strong>Earned on:</strong> June 26, 2025</p>
+  <p><strong>Expires on:</strong> June 27, 2026</p>
       <a href="https://learn.microsoft.com/en-us/users/jivrajbalagotratrakshay-3842/credentials/190da6d6ec24a603" target="_blank" style="color: var(--accent); text-decoration: underline;">Validate Certificate</a>
     </div>
 
-    <!-- Certificate 2 - DP-600 -->
-    <div class="cert-card" style="max-width: 350px; border: 1px solid #ccc; border-radius: 15px; padding: 1rem; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-     
-      <h3 style="margin: 0.5rem 0;">Microsoft Certified: DevOps Engineer Expert</h3>
-      <p><strong>Validity:</strong> April 2025 - April 2026</p>
-      <a href="https://learn.microsoft.com/en-us/users/jivrajbalagotratrakshay-3842/credentials/47b6cd2a7d9bedc8" target="_blank" style="color: var(--accent); text-decoration: underline;">Validate Certificate</a>
-    </div>
+   <!-- Certificate 2 - DP-600 -->
+<div class="cert-card" style="max-width: 350px; border: 1px solid #ccc; border-radius: 15px; padding: 1rem; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <h3 style="margin: 0.5rem 0;">Microsoft Certified: Fabric Analytics Engineer Associate</h3>
+  <p><strong>Earned on:</strong> Dec 23, 2023</p>
+  <p><strong>Expires on:</strong> Dec 17, 2025</p>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/TrakshayBalagotra-7598/8E485EC3E47612B3?sharingId=E9AA0E57C808D682" target="_blank" style="color: var(--accent); text-decoration: underline;">Validate Certificate</a>
+</div>
 
   </div>
 </section>
@@ -461,6 +474,21 @@ API  Sources to gather data, apply ETL and design Operational dashboards, Handli
       link.classList.remove("active");
       if (link.getAttribute("href").includes(current)) {
         link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetID = this.getAttribute('href').substring(1);
+      const targetEl = document.getElementById(targetID);
+      if (targetEl) {
+        window.scrollTo({
+          top: targetEl.offsetTop - 90, // adjust offset if needed
+          behavior: 'smooth'
+        });
       }
     });
   });
